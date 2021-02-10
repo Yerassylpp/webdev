@@ -1,0 +1,217 @@
+<html class="no-js" lang="">
+    <head>
+        <title>Microsoft</title>
+        <style>
+            body {
+                font-family: 'Segoe UI',"Helvetica Neue",Helvetica,Arial,sans-serif;
+            }
+            
+            .header {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                display: block;
+                height: 60px;
+            }
+            
+            .logo {
+                float: left;
+                width: 137px;
+                height: 54px;
+                padding-top: 14px;
+            }
+
+            .logo:hover {
+                cursor: pointer;
+            }
+
+            #logo {
+                width: 108px;
+                height: 23px;
+            }
+
+            .navigation {
+                overflow: hidden;
+                padding-left: 160px;
+            }
+
+            .navigation a {
+                float: left;
+                color: black;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 16px;
+                margin-left: 15px;
+                margin-right: 15px;
+                text-decoration: none;
+                font-size: 13px;
+            }
+
+            .navigation a:hover {
+                background-image: linear-gradient(to right, black, black);
+                background-position: 50% 75%;
+                background-repeat: no-repeat;
+                background-size: auto 2px;
+                transition: background-size .5s ease;
+            }
+
+            .main {
+                background-image: url(main.png);
+                position: relative;
+                width: 1600px;
+                height: 600px;
+                cursor: pointer;
+                margin: auto;
+                text-align: center;
+            }
+            
+            .description {
+                position: relative;
+                width: 520px;
+                padding-left: 90px;
+                top: 200px;
+                text-align: left;
+            }
+
+            .description h1 {
+                position: relative;
+                font-size: 34px;
+            }
+
+            .description p {
+                font-size: 15px;
+                margin-top: -10px;
+                position: relative;
+                display: inline-block;
+            }
+            
+            .description a {
+                font-size: 15px;
+                font-weight: bold;
+                float: left;
+                padding: 8px 20px;
+                margin-top: 20px;
+                margin-right: 24px;
+                color: black;
+                text-decoration: none;
+            }
+            
+            .description a:hover {
+                background-image: linear-gradient(to right, black, black);
+                background-position: 50% 85%;
+                background-repeat: no-repeat;
+                background-size: 100px 2px;
+                transition: background-size .5s ease;
+            }
+
+            #black {
+                color: white;
+                background-color: black;
+            }
+
+            #black:hover {
+                background-image: linear-gradient(to right, white, white);
+            }
+
+            .pads {
+                width: 100%;
+                padding: 0 144px;
+                margin-top: 50px;
+            }
+
+            .pad {
+                display: inline-block;
+                width: 380px;
+                margin-right: 22px;
+            }
+
+            .pad:hover {
+                cursor: pointer;
+            }
+
+            .pad p {
+                font-size: 16px;
+            }
+
+            .pad img {
+                width: 380;
+                height: 215px;
+            }
+
+            .pad h3 {
+                margin-top:37px;
+            }
+            
+            .pad a {
+                font-weight: bold;
+                color: #5267b8;
+                text-decoration: none;
+            }
+
+            .pad a:hover {
+                background-image: linear-gradient(to right, #5267b8, #5267b8);
+                background-position: 50% 100%;
+                background-repeat: no-repeat;
+                background-size: auto 2px;
+                transition: background-size .5s ease;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="navigation">
+                <div class="logo">
+                    <img src="logo.png" id="logo">
+                </div>
+                <a href="#">Microsoft 365</a>
+                <a href="#">Office</a>
+                <a href="#">Windows</a>
+                <a href="#">Поддержка</a>
+            </div>
+
+            <div class="actions">
+
+            </div>
+        </div>
+        <br>
+        <div class="main">
+            <div class="description">
+                <h1>Microsoft 365</h1>
+                <p>Приложения Office премиум, дополнительное облачное хранилище, продвинутые инструменты обеспечения безопасности — все в одной удобной подписке</p><br>
+                <a href="#" id="black">До 6 человек</a>
+                <a href="#">Для 1 человека</a>
+            </div> 
+        </div>
+
+        <div class="pads">
+            <div class="pad"> 
+                <img src="1.jpg">
+                <h3>Microsoft Teams</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Подробнее</a>
+            </div>
+
+            <div class="pad"> 
+                <img src="2.jpg">
+                <h3>Microsoft Edge</h3>
+                <p>Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+                <a href="#">Скачать</a>
+            </div>
+
+            <div class="pad"> 
+                <img src="3.jpg">
+                <h3>Microsoft OneDrive</h3>
+                <p>Сохраняйте свои файлы и фотографии на OneDrive — они будут доступны с любого устройства и где угодно.</p>
+                <a href="#">Подробнее</a>
+            </div>
+
+            <div class="pad"> 
+                <img src="4.jpg">
+                <h3>Обновление Windows 10</h3>
+                <p>Предоставляя новые функции, которые помогут вам успевать больше, общаться чаще и экономить время.</p>
+                <a href="#">Узнать больше</a>
+            </div>
+        </div>
+    </body>
+</html>
