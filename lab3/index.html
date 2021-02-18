@@ -5,9 +5,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body onload="todo.construct();"> 
-        <h2 id="error">Error</h2>
+        <div class="header"> 
+            <h2>ToDo List</h2>
+        </div>
+        <h2 id="error">Please enter new task!</h2>
         <div class="todolist">
-            <h1>ToDo List</h1>
+            <h1 id="title">ToDo List</h1>
             <div class="add">
                 <input type="text" id="input-task" placeholder="New Task">
                 <button id="add-task-btn">Add</button>
