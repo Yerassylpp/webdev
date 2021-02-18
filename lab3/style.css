@@ -20,7 +20,15 @@ body {
 }
 
 #error {
+    position: absolute;
     display: none;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 20px;
+    left: 45%;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
 }
 
 h1 {
