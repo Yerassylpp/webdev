@@ -8,7 +8,7 @@ def product_list(request):
     json = [product.json() for product in products]
     return JsonResponse(json, safe = False)
 
-def product_one(request, id):
+def product_(request, id):
     try:
         product = Product.objects.get(id = id)
     except Product.DoesNotExist as e:
@@ -20,7 +20,7 @@ def category_list(request):
     json = [category.json() for category in categories]
     return JsonResponse(json, safe = False)
 
-def category_one(request, id):
+def category_(request, id):
     try:
         category = Category.objects.get(id = id)
     except Product.DoesNotExist as e:
